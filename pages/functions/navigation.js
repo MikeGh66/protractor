@@ -10,7 +10,7 @@ var navigation = function () {
             browser.waitForAngularEnabled = true
             browser.get(url);
         }
-        if (angular == 'local') {
+        if (angular == 'non-angular') {
             console.log('doua intrare')
             browser.waitForAngularEnabled = false
             browser.driver.get(url);

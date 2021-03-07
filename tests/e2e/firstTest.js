@@ -12,7 +12,7 @@ describe('Protractor Demo App', function() {
     var assertionPage = new assertion
 
     it('should add one and two', function() {
-        navigationPage.navigateToUrl('local');
+        navigationPage.navigateToUrl('non-angular');
 
     });
 
